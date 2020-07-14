@@ -1,0 +1,80 @@
+#navbar{
+    overflow: no-display;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: dodgerblue;
+
+}
+#navbar a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.dropbtn{
+    color: white;
+    display: inline;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: dodgerblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: darkcyan;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+
+
+#label{
+    margin-left: 1%;
+}
+#container-movie-item{
+    list-style-type: none;
+    overflow-x: scroll;
+    display: flex;
+    margin-right: 1%;
+    margin-left: 1%;
+    justify-content: stretch;
+    align-self: center;
+}
+
+#container-item{
+
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: block;
+    margin-right: 16px;
+}
+#container-item p{
+    text-align: center;
+}
+
+#container-grid-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+
+}

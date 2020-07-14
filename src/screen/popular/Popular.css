@@ -1,0 +1,23 @@
+#label-grid{
+    text-align: center;
+}
+#container-grid-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+#container-item{
+    border-radius: 10px;
+    width: 171px;
+}
+
+#container-item img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#tabs:nth-child(1){
+    margin-left: 46%;
+    margin-bottom: 2%;
+}
