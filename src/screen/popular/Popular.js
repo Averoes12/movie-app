@@ -20,7 +20,7 @@ class Popular extends Component{
         return(
             <div>
                 <div>
-                    <div>
+                    <div id="container">
                         <h4 id="label-grid">Popular Movie</h4>
                         <hr/>
                     </div>

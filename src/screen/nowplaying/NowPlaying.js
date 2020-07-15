@@ -18,7 +18,7 @@ class NowPlaying extends Component {
 
         return (
             <div>
-                <div>
+                <div id="container">
                     <div>
                         <h4 id="label-grid">Now Playing Movie</h4>
                         <hr/>

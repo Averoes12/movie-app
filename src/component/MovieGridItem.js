@@ -14,7 +14,7 @@ export default class MovieGridItem extends Component {
                 {source.map((results) => (
                     <div id="container-item">
                         <Link to={{
-                            pathname: "/detail",
+                            pathname: "/"+results.title,
                             state: {
                                 channel: "movie",
                                 id: results.id,

@@ -12,7 +12,7 @@ export default class TvGridItem extends Component {
                 {source.map((results) => (
                     <div id="container-item">
                         <Link to={{
-                            pathname:"/detail",
+                            pathname:"/"+results.name,
                             state:{
                                 channel: "tv",
                                 id: results.id,

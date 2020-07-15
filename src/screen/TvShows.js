@@ -19,7 +19,7 @@ class TvShows extends Component{
 
         return(
             <div>
-                <div>
+                <div id="container">
                     <div>
                         <h4 id="label-grid">Tv Shows</h4>
                         <hr/>

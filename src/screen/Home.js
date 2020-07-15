@@ -24,7 +24,7 @@ class Home extends Component {
 
 
         return (
-            <div>
+            <div id="home-container">
                 <div>
                     <h4 id="label">Discover Movie</h4>
                     <MovieListItem results={discover} />

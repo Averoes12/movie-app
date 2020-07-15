@@ -17,7 +17,7 @@ class Discover extends Component {
         const discover = this.props.discover;
 
         return (
-            <div>
+            <div id="container">
                 <div>
                     <div>
                         <h4 id="label-grid">Discover Movie</h4>

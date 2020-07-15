@@ -12,7 +12,7 @@ class MovieListItem extends Component {
                 {source.map((results) => (
                     <li id="container-item">
                         <Link to={{
-                            pathname:"/detail",
+                            pathname:"/"+results.title,
                             state:{
                                 channel: "movie",
                                 id: results.id,

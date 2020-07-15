@@ -21,7 +21,7 @@ class Trending extends Component {
         const week = this.props.week;
 
         return (
-            <div>
+            <div id="container">
                 <h4 id="label-grid">Trending Movie</h4>
                 <Tabs>
                     <TabList>

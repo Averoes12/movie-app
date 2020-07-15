@@ -19,7 +19,7 @@ class TopRated extends Component {
         return (
             <div>
                 <div>
-                    <div>
+                    <div id="container">
                         <h4 id="label-grid">Top Rated Movie</h4>
                         <hr/>
                     </div>

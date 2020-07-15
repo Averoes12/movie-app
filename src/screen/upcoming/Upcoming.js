@@ -18,7 +18,7 @@ class Upcoming extends Component {
 
         return (
                 <>
-                    <div>
+                    <div id="container">
                         <h4 id="label-grid">Upcoming Movie</h4>
                         <hr/>
                     </div>

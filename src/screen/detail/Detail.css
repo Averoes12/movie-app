@@ -1,3 +1,8 @@
+#content-container{
+    background-color: beige;
+    padding: 3%;
+
+}
 #container-detail-item {
     height: 100%;
 
@@ -5,4 +10,59 @@
 #imag {
     width: 50%;
     justify-content:right;
+    border-radius: 10px;
+}
+
+#title {
+    margin-bottom: 5%;
+}
+
+#runtime{
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+}
+#runtime p{
+    margin-left: 1%;
+
+}
+#rating{
+    margin-bottom: 5%;
+    flex-direction: row;
+    display: flex;
+}
+
+#rating p{
+
+    margin-left: 4%;
+}
+
+#genres {
+    background-color: cadetblue;
+    padding: 8px;
+    border-radius: 20px;
+    flex-direction: row;
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 10px;
+}
+#genres-item{
+    font-size: small;
+    color: aliceblue;
+}
+#product-container {
+    margin-top: 5%;
+}
+#companies {
+    flex-direction: row;
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+#companies-item {
+    width: 150px;
+    text-align: center;
+
 }
