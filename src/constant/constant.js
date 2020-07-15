@@ -1,5 +1,3 @@
-import React from "react";
-
 export const API_KEY = "9428d1de175b89f3fba2af8d0b021de0"
 export const IMG_URL = "https://image.tmdb.org/t/p/original/"
 export const DEFAULT_FLAG = "https://i.pinimg.com/originals/77/4b/02/774b0259bfaf6430e0377f2287d13b91.png"

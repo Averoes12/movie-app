@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {IMG_URL} from "../constant/constant";
 import '../screen/Home.css'
-import moment from "moment";
 import {parseDate} from "../utils/parseDate";
 import {Link} from "react-router-dom";
 
@@ -24,6 +23,7 @@ export default class MovieGridItem extends Component {
                                 width={171}
                                 height={180}
                                 src={IMG_URL + results.poster_path}
+                                alt="movie-grid-item"
                             />
                         </Link>
                         <p>{results.title}</p>

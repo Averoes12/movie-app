@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import './popular/Popular.css'
-import MovieGridItem from "../component/MovieGridItem"
 import {getTv} from "../actions/TvActions";
 import TvGridItem from "../component/TvGridItem";
 

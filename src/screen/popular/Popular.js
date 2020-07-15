@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {getPopular} from "../../actions/MovieAction";
 import {connect} from "react-redux";
-import MovieListItem from "../../component/MovieListItem";
 import './Popular.css'
 import MovieGridItem from "../../component/MovieGridItem";
 

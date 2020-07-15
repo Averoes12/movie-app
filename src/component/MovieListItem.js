@@ -9,7 +9,7 @@ class MovieListItem extends Component {
         const source = this.props.results
         return (
             <ul id="container-movie-item">
-                {source.map((results) => (
+                {source.map((results, key) => (
                     <li id="container-item">
                         <Link to={{
                             pathname:"/"+results.title,
@@ -23,6 +23,7 @@ class MovieListItem extends Component {
                             height={180}
                             style={{borderTopLeftRadius: 9, borderTopRightRadius: 9}}
                             src={IMG_URL + results.poster_path}
+                            alt="movie-grid-item"
 
                         />
                         </Link>

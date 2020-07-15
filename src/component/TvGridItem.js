@@ -22,6 +22,8 @@ export default class TvGridItem extends Component {
                             width={171}
                             height={180}
                             src={IMG_URL + results.poster_path}
+                            alt="movie-grid-item"
+
                         />
                         </Link>
                         <p>{results.name}</p>

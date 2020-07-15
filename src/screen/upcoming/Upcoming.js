@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {getPopular, getUpcoming} from "../../actions/MovieAction";
+import {getUpcoming} from "../../actions/MovieAction";
 import {connect} from "react-redux";
 import '../popular/Popular.css'
 import MovieGridItem from "../../component/MovieGridItem";

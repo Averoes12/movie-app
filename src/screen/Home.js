@@ -36,11 +36,6 @@ class Home extends Component {
                 <div>
                     <h4 id="label">Trending Movie</h4>
                     <Tabs
-                        tabsProps={{
-                            style:{
-                                paddingLeft:8
-                            }
-                        }}
                         activeTab={{
                         id:"day"
                     }}>
@@ -60,6 +55,7 @@ class Home extends Component {
         );
     }
 }
+
 
 const mapStateToProps = (state) => ({
     discover: state.getMovieReducer.discover,
