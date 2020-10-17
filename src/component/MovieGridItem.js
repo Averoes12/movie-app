@@ -8,6 +8,7 @@ export default class MovieGridItem extends Component {
 
     render() {
         const source = this.props.results;
+        const variable = this.props.results;
         return (
             <div id="container-grid-item">
                 {source.map((results) => (
