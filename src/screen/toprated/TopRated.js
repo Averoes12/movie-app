@@ -14,16 +14,16 @@ class TopRated extends Component {
     }
 
     render() {
-        const top = this.props.top;
+        const listOfTopMovies = this.props.top;
 
         return (
             <div>
                 <div>
                     <div id="container">
-                        <h4 id="label-grid">Top Rated Movie</h4>
+                        <h4 id="label-grid">List Of Top Rated Movie</h4>
                         <hr/>
                     </div>
-                    <MovieGridItem results={top}/>
+                    <MovieGridItem results={listOfTopMovies}/>
                 </div>
             </div>
         )
